@@ -1,0 +1,237 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.sidebar{
+    width: 300px;
+    height: 100vh;
+    background-color: rgb(218, 212, 212);
+    position: fixed;
+}
+.sidebar .pri{
+    margin-left: 40px;
+    margin-top: 10px;
+    border-radius: 50%;
+    border: 6px double black;
+}
+.links{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.links button{
+    width: 200px;
+    height: 50px;
+    border: none;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: transparent;
+    border-bottom: 2px solid peru;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.links a{
+    text-decoration: none;
+    color: rgb(48, 47, 47);
+}
+.links a:hover{
+    color:peru ;
+}
+.home,.about,.eduction,.portfolio,.contact{
+   
+    height: 100vh;
+    background-color: rgb(187, 181, 181);
+}
+.home-board{
+    width: 700px;
+    height: 350px;
+    margin-left: 35%;
+    /* border: 1px solid black; */
+    background-color: rgb(221, 216, 216);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    border-radius: 10px;
+}
+.hometext{
+    color: rgb(59, 58, 58); 
+    padding: 5px;
+
+}
+.hometext h3{
+    margin-left: 70px;
+}
+.hometext p{
+    font-size: xx-large;
+    font-weight: 900;
+    color: rgb(59, 58, 58);
+    padding-bottom: 5px;
+    border-bottom: 1px solid peru;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.hometext span{
+    color: peru;
+}
+.hometext h4{
+    margin-left: 25px;
+}
+.myimg{
+    border-radius: 50%;
+    
+}
+.lines .line1,.line2,.line3,.line4{
+    width: 750px;
+    height: 2px;
+    background-color: peru;
+    position: absolute;
+    top: 25%;
+    left: 33%;
+}
+.lines .line2{
+    top: 26%;
+}
+.lines .line3{
+    top: 73%;
+}
+.lines .line4{
+    top: 72%;
+}
+.aboutheading p{
+    padding-top: 20px;
+    margin-left: 25%;
+    font-size: xx-large;
+    font-weight: 900;
+    color: rgb(51, 50, 50);
+}
+.aboutheading  span{
+    color: peru;
+}
+.abouttext span{
+    color: peru;  
+}
+.abouttext{
+    margin-top: 3%;
+}
+.abouttext p{
+    font-size:larger;
+    margin-left: 30%; 
+    color: rgb(51, 50, 50);
+}
+.aboutdetails{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 15%;
+    margin-top: 5%;
+    font-size: larger;
+    color: rgb(51, 50, 50);
+}
+.aboutdetails span{
+color: peru;
+}
+.skills{
+    margin-top: 5%;
+    margin-left: 20%;
+}
+.skill1,.skill2,.skill3,.skill4,.skill5{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    color: rgb(51, 50, 50);
+    font-weight:bolder;
+}
+.meter{
+    width: 500px;
+    height: 10px;
+    border-radius: 20px;
+    background-color: rgb(77, 75, 75);
+}
+.measure1,.measure2,.measure3,.measure4,.measure5{
+    background-color: peru;
+    width: 400px;
+    height: 10px;border-radius: 20px;
+}
+.measure2{
+    width: 350px;
+}
+.measure3{
+    width: 200px;
+}
+.measure4{
+    width: 400px;
+}
+.measure5{
+    width: 400px;
+}
+
+.eductionheading p,.conheading p{
+    padding-top: 20px;
+    margin-left: 25%;
+    font-size: xx-large;
+    font-weight: 900;
+    color: rgb(51, 50, 50);
+}
+.eductionheading  span,.contactheading span{
+    color: peru;
+}
+.educationdeatails,.contactdeatails{
+    margin-top: 4%;
+    margin-left: 35%;
+    color: rgb(70, 68, 68);
+}
+.detail{
+    width: 700px;
+    height: 90px;
+    background-color: rgb(223, 216, 216);
+    margin-bottom: 7px;
+    padding-left: 20px;
+padding-top: 20px;
+}
+.detail h3{
+    margin-left: 3px;
+}
+.detail span{
+    margin-left: 70px;
+    color: peru
+}
+
+.portfolioheading p{
+    padding-top: 20px;
+    margin-left: 25%;
+    font-size: xx-large;
+    font-weight: 900;
+    color: rgb(51, 50, 50);
+}
+.portfolioheading  span{
+    color: peru;
+}
+.projects{
+    margin-left: 23%;
+}
+.project1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+.project{
+    width: 300px;
+    
+    background-color: rgb(218, 210, 210);
+    padding-left:10px ;
+    /* padding-top: 20px;
+    padding-bottom: 10px; */
+    text-align: center;
+    border-radius: 10px;
+    color: rgb(51, 50, 50);
+}
+.project h3{
+    color: peru;
+}
